@@ -1,0 +1,45 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc 활성 파일 빌드",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "디버거에서 생성된 작업입니다."
+        },
+    //     {
+    //         "label": "build client",
+    //         "type": "shell",
+    //         "command": "gcc",
+    //         "args": [
+    //             "client/chat_client.c",
+    //             "-o",
+    //             "client/chat_client",
+    //             "-g",               // 디버깅 정보 포함
+    //             "-pthread"
+    //         ],
+    //          "group": {
+    //            "kind": "build",
+    //            "isDefault": true
+    //         },
+    //         "problemMatcher": ["$gcc"]
+    //    }
+    ],
+    "version": "2.0.0"
+}

@@ -1,0 +1,26 @@
+// .vscode/launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    // {
+    //   "name": "디버그: chat_client",
+    //   "type": "cppdbg",
+    //   "request": "launch",
+    //   "program": "${workspaceFolder}/client/chat_client",
+    //   "args": ["127.0.0.1", "9000"],  // 서버 IP/포트
+    //   "stopAtEntry": false,
+    //   "cwd": "${workspaceFolder}",
+    //   "environment": [],
+    //   "externalConsole": false, // true로 하면 독립 콘솔
+    //   "MIMode": "gdb",
+    //   "setupCommands": [
+    //     {
+    //       "description": "gdb용 pretty-printing 활성화",
+    //       "text": "-enable-pretty-printing",
+    //       "ignoreFailures": true
+    //     }
+    //   ],
+    //   "preLaunchTask": "build client"
+    // }
+  ]
+}
